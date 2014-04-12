@@ -14,7 +14,7 @@ return [
         // This is a menu item
         'home'  => [
             'text'  => 'Hem',   
-            'url'   => 'me',  
+            'url'   => '',  
             'title' => 'Om mig'
         ],
  

@@ -1,6 +1,5 @@
 <article class="article1">
 
-
 <?=$content?>
 
 <?php if(isset($byline)) : ?>
@@ -9,4 +8,4 @@
 </footer>
 <?php endif; ?>
 
-<article>
+</article>

@@ -7,8 +7,8 @@ return [
         'region'   => 'header', 
         'template' => 'me/header', 
         'data'     => [
-            'siteTitle' => "Min me-sida i PHPMVC",
-            'siteTagline' => "Här är en tagline som säger nåt vackert",
+            'siteTitle' => "phpmvc - Daniel",
+            'siteTagline' => "Något vackert",
         ], 
         'sort'     => -1
     ],

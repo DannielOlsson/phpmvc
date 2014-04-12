@@ -11,7 +11,11 @@ $app->router->add('me', function() use ($app) {
  $byline = $app->fileContent->get('byline.md');
  $byline = $app->textFilter->doFilter($byline, 'shortcode, markdown');
 
- $app->views->add('me/page');
+ $app->views->add('me/page', 
+ [
+ 'content' => $content,
+ 'byline' => $byline,
+ ]);
 });
  
  //Redovisningar
