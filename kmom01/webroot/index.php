@@ -3,7 +3,7 @@ require __DIR__.'/config_with_app.php';
 
 
 //Länkar i front controller
-//Fungerar ej korrekt, väntar på att mos ska uppdatera funktionen.
+
 $app->url->setUrlType(\Anax\Url\CUrl::URL_CLEAN);
 
 //Om mig / index

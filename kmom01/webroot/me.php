@@ -1,7 +1,8 @@
 <?php
 require __DIR__.'/config_with_app.php'; 
  
-$app->router->add('me', function() use ($app) {
+ //$app->url->setUrlType(\Anax\Url\CUrl::URL_CLEAN);
+$app->router->add('', function() use ($app) {
  
  $app->theme->setTitle("Om mig");
 
